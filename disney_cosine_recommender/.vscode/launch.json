@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Disney+ recommender (interactive)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/disney_recommender.py",
+            "console": "integratedTerminal",
+            "args": []
+        },
+        {
+            "name": "Run Disney+ recommender (example title)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/disney_recommender.py",
+            "console": "integratedTerminal",
+            "args": ["--title", "Moana", "--top", "5"]
+        }
+    ]
+}
